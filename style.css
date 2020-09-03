@@ -10,17 +10,17 @@ html *{
 }
 body {
 	margin: 60px 40px;
-	background-color: #e6e6fa;
+	background-color: #fff0f5;
 }
 .page {
 	display: block;
 	height: 700px;
-	background-color: #f5f5f5;
+	background-color: #fff0f5;
 	margin: 0 auto;
 }
 .site-top {
 	margin-bottom: 70px;
-	background-color: #ffffff;
+	background-color: #fff0f5;
 }
 .site-top-table {
 	/*display: table;
@@ -30,6 +30,7 @@ body {
 	/*display: table-cell;*/
 	padding-bottom: 10px;
 	padding-right: 75px;
+	text-align: center;
 }
 .site-title {
 	font-family: 'Abel';
@@ -37,15 +38,9 @@ body {
 	letter-spacing: 1px;
 	margin: 0 0;
 }
-.site-description {
-	font-family: 'Abel';
-	font-size: 1.2rem;
-	letter-spacing: 1px;
-}
 .site-navigation {
 	/*display: table-cell;*/
 	font-size: 0;
-	background-color: #dcdcdc;
 	text-align: center;
 }
 .nav-menu {
