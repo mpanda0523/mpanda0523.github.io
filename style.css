@@ -37,11 +37,13 @@ body {
 	font-size: 3.2rem;
 	letter-spacing: 1px;
 	margin: 0 0;
+	color: #4682b4;
 }
 .site-navigation {
 	/*display: table-cell;*/
 	font-size: 0;
 	text-align: center;
+	color: #4682b4;
 }
 .nav-menu {
 	display: inline-block;
