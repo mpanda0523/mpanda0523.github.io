@@ -22,13 +22,11 @@ body {
 	/*background-color: #fff0f5;*/
 	margin: 0 auto;
 }
-.site-top {
-	margin-bottom: 70px;
-	/*background-color: #fff0f5;*/
-}
 .site-top-table {
-	/*display: table;
-	width: 100%;*/
+	margin-bottom: 70px;
+	padding-bottom: 70px;
+	/*background-color: #fff0f5;*/
+	/*border-bottom: 1px solid #d3d3d3;*/
 }
 .site-branding {
 	/*display: table-cell;*/
@@ -60,7 +58,7 @@ body {
 	display: inline-block;
 	padding: 0 16px;
 	font-family: 'Amatic SC';
-	font-size: 1.2rem;
+	font-size: 2.0rem;
 	letter-spacing: 1px;
 }
 /*.search-form {
@@ -68,6 +66,9 @@ body {
 	padding-left: 20px;
 	border: solid 1px #808080;
 }*/
+.self-introduction {
+	padding-left: 20px;
+}
 
 /*PC monitor*/
 @media (min-width: 768px) {
