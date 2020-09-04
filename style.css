@@ -10,17 +10,21 @@ html *{
 }
 body {
 	margin: 60px 40px;
-	background-color: #fff0f5;
+	background-color: rgba(255,255,255,0.8);
+	background-image: url("sozai/panda-cup-2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode:lighten;
 }
 .page {
 	display: block;
 	height: 700px;
-	background-color: #fff0f5;
+	/*background-color: #fff0f5;*/
 	margin: 0 auto;
 }
 .site-top {
 	margin-bottom: 70px;
-	background-color: #fff0f5;
+	/*background-color: #fff0f5;*/
 }
 .site-top-table {
 	/*display: table;
@@ -33,17 +37,17 @@ body {
 	text-align: center;
 }
 .site-title {
-	font-family: 'Abel';
+	font-family: 'Shadows Into Light';
 	font-size: 3.2rem;
 	letter-spacing: 1px;
 	margin: 0 0;
-	color: #4682b4;
+	color: #000000;
 }
 .site-navigation {
 	/*display: table-cell;*/
 	font-size: 0;
 	text-align: center;
-	color: #4682b4;
+	color: #000000;
 }
 .nav-menu {
 	display: inline-block;
@@ -55,7 +59,7 @@ body {
 .nav-menu-item {
 	display: inline-block;
 	padding: 0 16px;
-	font-family: 'Abel';
+	font-family: 'Amatic SC';
 	font-size: 1.2rem;
 	letter-spacing: 1px;
 }
