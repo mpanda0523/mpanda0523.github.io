@@ -13,7 +13,8 @@ html *{
 	src: url("sozai/azukifontLP100/azukiLP.ttf");
 }
 body {
-	margin: 60px 0;
+	margin: 40px 0px 0px;
+	background-color: #FFF2D4;
 }
 .page {
 	display: block;
@@ -21,7 +22,7 @@ body {
 	margin: 0;
 }
 .site-top-table {
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 	/*background-color: #fff0f5;*/
 	/*border-bottom: 1px solid #d3d3d3;*/
 }
@@ -36,13 +37,13 @@ body {
 	font-size: 4.2rem;
 	letter-spacing: 1px;
 	margin: 0 0;
-	color: #000000;
+	color: #696969;
 }
 .site-navigation {
 	/*display: table-cell;*/
 	font-size: 0;
 	text-align: center;
-	color: #000000;
+	color: #696969;
 }
 .nav-menu {
 	display: inline-block;
@@ -55,15 +56,15 @@ body {
 	display: inline-block;
 	padding: 0 16px;
 	font-family: 'Amatic SC';
-	font-size: 2.0rem;
+	font-size: 2.4rem;
 	letter-spacing: 1px;
 }
 .nav-menu-item a:link{
-	color: #000000;
+	color: #696969;
 	text-decoration: none;
 }
 .nav-menu-item a:visited{
-	color: #000000;
+	color: #696969;
 	text-decoration: none;
 }
 .nav-menu-item a:hover{
@@ -86,12 +87,12 @@ body {
 	font-size: 1.6rem;
 	color: #696969;
 	line-height: 1.5;
-	background-color: rgba(255,255,255,0.8);
+	/*background-color: rgba(255,255,255,0.8);*/
 	background-image: url("sozai/panda-cup-2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-blend-mode:lighten;
+	/*background-blend-mode:lighten;*/
 }
 .key-description {
 	padding-top: 200px;
@@ -107,6 +108,10 @@ body {
 .contact {
 	height: 600px;
 	background-color: #ffffff;
+}
+footer {
+	height: 100px;
+	background-color: #f5f5f5;
 }
 
 /*PC monitor*/
