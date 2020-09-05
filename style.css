@@ -91,7 +91,9 @@ body {
 	font-family: 'azukiLP';
 	padding: 10px;
 	text-align: center;
-	font-size: 2.0rem;
+	font-size: 1.6rem;
+	color: #696969;
+	line-height: 1.5;
 }
 
 /*PC monitor*/
