@@ -29,7 +29,7 @@ body {
 .site-branding {
 	/*display: table-cell;*/
 	padding-bottom: 10px;
-	padding-right: 75px;
+	padding-right: 50px;
 	text-align: center;
 }
 .site-title {
@@ -37,7 +37,7 @@ body {
 	font-size: 4.2rem;
 	letter-spacing: 1px;
 	margin: 0 0;
-	color: #696969;
+	color: #8b4513;
 }
 .site-navigation {
 	/*display: table-cell;*/
@@ -103,7 +103,7 @@ body {
 }
 .work-introduction {
 	height: 600px;
-	background-color: #f5f5f5;
+	background-color: #FFF2D4;
 }
 .contact {
 	height: 600px;
@@ -111,7 +111,7 @@ body {
 }
 footer {
 	height: 100px;
-	background-color: #f5f5f5;
+	background-color: #FFF2D4;
 }
 
 /*PC monitor*/
