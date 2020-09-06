@@ -112,6 +112,19 @@ body {
 	font-family: 'Amatic SC';
 	font-size: 4.2rem;
 }
+.intro-list {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'azukiLP';
+	font-size: 1.4rem;
+	line-height: 2.0;
+	margin: 30px auto;
+	padding: 5px
+}
+.intro-item {
+	list-style: circle;
+}
 #contact {
 	height: 600px;
 	background-color: #f5f5f5;
