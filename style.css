@@ -107,17 +107,19 @@ body {
 	text-align: center;
 	font-size: 5.2rem;
 }
+.section-contents {
+	font-family: 'azukiLP';
+	font-size: 1.4rem;
+	line-height: 2.0;
+}
 #self-introduction {
 	height: 500px;
 	background-color: #f5f5f5;
 }
-.intro-list {
+#self-introduction .section-contents {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	font-family: 'azukiLP';
-	font-size: 1.4rem;
-	line-height: 2.0;
 	margin: 20px auto;
 	padding: 5px
 }
@@ -127,6 +129,10 @@ body {
 #work-introduction {
 	height: 600px;
 	background-color: #FFF2D4;
+}
+#work-introduction .section-contents {
+	padding: 20px;
+	text-align: center;
 }
 #contact {
 	height: 600px;
