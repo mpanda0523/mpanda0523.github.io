@@ -97,17 +97,28 @@ body {
 .key-description {
 	padding-top: 200px;
 }
-.self-introduction {
+#self-introduction {
 	height: 500px;
 	background-color: #f5f5f5;
+	font-family: 'Amatic SC';
+	font-size: 4.2rem;
 }
-.work-introduction {
+#work-introduction {
 	height: 600px;
 	background-color: #FFF2D4;
+	font-family: 'Amatic SC';
+	font-size: 4.2rem;
 }
-.contact {
+#contact {
 	height: 600px;
 	background-color: #f5f5f5;
+	font-family: 'Amatic SC';
+	font-size: 4.2rem;
+}
+.section-title {
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
 }
 footer {
 	height: 100px;
