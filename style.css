@@ -100,17 +100,16 @@ body {
 	margin-left: 100px;
 	text-align: left;
 }
+.section-title {
+	font-family: 'Amatic SC';
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 5.2rem;
+}
 #self-introduction {
 	height: 500px;
 	background-color: #f5f5f5;
-	font-family: 'Amatic SC';
-	font-size: 4.2rem;
-}
-#work-introduction {
-	height: 600px;
-	background-color: #FFF2D4;
-	font-family: 'Amatic SC';
-	font-size: 4.2rem;
 }
 .intro-list {
 	display: flex;
@@ -125,17 +124,13 @@ body {
 .intro-item {
 	list-style: circle;
 }
+#work-introduction {
+	height: 600px;
+	background-color: #FFF2D4;
+}
 #contact {
 	height: 600px;
 	background-color: #f5f5f5;
-	font-family: 'Amatic SC';
-	font-size: 4.2rem;
-}
-.section-title {
-	padding: 20px;
-	margin: 0 auto;
-	text-align: center;
-	font-size: 5.2rem;
 }
 footer {
 	height: 100px;
