@@ -21,6 +21,14 @@ body {
 	/*background-color: #fff0f5;*/
 	margin: 0;
 }
+.site-top {
+	/*background-color: rgba(255,255,255,0.8);*/
+	background-image: url("sozai/panda-cup-2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background-blend-mode:lighten;*/
+}
 .site-top-table {
 	margin-bottom: 40px;
 	/*background-color: #fff0f5;*/
@@ -87,12 +95,6 @@ body {
 	font-size: 1.6rem;
 	color: #696969;
 	line-height: 1.5;
-	/*background-color: rgba(255,255,255,0.8);*/
-	background-image: url("sozai/panda-cup-2.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	/*background-blend-mode:lighten;*/
 }
 .key-description {
 	padding-top: 200px;
