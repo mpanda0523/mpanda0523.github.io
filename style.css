@@ -93,7 +93,7 @@ body {
 }*/
 .keyvisual {
 	font-family: 'azukiLP';
-	height: 600px;
+	height: 500px;
 	text-align: center;
 	font-size: 1.6rem;
 	color: #696969;
@@ -101,8 +101,7 @@ body {
 }
 .key-description {
 	padding-top: 100px;
-	margin-left: 100px;
-	text-align: left;
+	margin: 10px auto;
 }
 
 /*main*/
