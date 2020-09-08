@@ -155,6 +155,7 @@ body {
 	background-position: center;
 	border-radius: 50%;
 	text-align: center;
+	margin: 0 auto;
 }
 #work-introduction a {
 	text-decoration: none;
@@ -213,6 +214,8 @@ footer {
     display: block;
 		width: 100%;
 		height: 100%;
+		background-color: #f5f5f5;
+		opacity: 0.5;
   }
   .hamburger-outline span {
     display: inline-block;
@@ -255,6 +258,10 @@ footer {
 		display: block;
 		font-size: 2.0rem;
 	}
+	.section-title {
+		padding: 10px;
+		font-size: 3.0rem;
+	}
 }
 
 /*smart phone*/
@@ -286,6 +293,8 @@ footer {
     display: block;
 		width: 100%;
 		height: 100%;
+		background-color: #f5f5f5;
+		opacity: 0.5;
   }
   .hamburger-outline span {
     display: inline-block;
