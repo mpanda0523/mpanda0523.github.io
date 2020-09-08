@@ -29,12 +29,14 @@ body {
 	/*background-blend-mode:lighten;*/
 }
 .site-top-table {
+	display: table;
+	width: 100%;
 	margin-bottom: 40px;
 	background-color: rgba(255,255,255,0.4);
 	background-blend-mode:lighten;
 }
 .site-branding {
-	/*display: table-cell;*/
+	display: table-cell;
 	padding-bottom: 10px;
 	padding-right: 50px;
 	text-align: center;
@@ -53,7 +55,8 @@ body {
 	display: none;
 }
 .site-navigation {
-	/*font-size: 0;*/
+	font-size: 0;
+	display: table-cell;
 	text-align: center;
 	color: #696969;
 }
@@ -159,24 +162,10 @@ footer {
 	background-color: #FFF2D4;
 }
 
-/*PC monitor*/
-/*@media (min-width: 768px) {
-	.site-top-table {
-		display: table;
-		width: 100%;
-	}
-	.site-branding {
-		display: table-cell;
-	}
-	.site-navigation {
-		display: table-cell;
-	}*/
-
 /*tablet*/
 @media (min-width: 500px) and (max-width: 768px) {
 	.page {
 		width: 500px;
-		height: 700px;
 	}
 }
 
@@ -187,6 +176,12 @@ footer {
 	}
 	.page {
 		width: 100%;
+	}
+	.site-top-table {
+		display: block;
+	}
+	.site-branding {
+		display: block;
 	}
 	.hamburger-outline {
 		position: absolute;
