@@ -149,6 +149,11 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 5px;
+	text-align: center;
+}
+#work-introduction a {
+	text-decoration: none;
+	color: #696969;
 }
 #work-introduction a:hover {
 	opacity: 0.5;
@@ -172,7 +177,7 @@ footer {
 /*smart phone*/
 @media (max-width: 499px) {
 	body {
-		margin: 30px 0px;
+		margin: 20px 0;
 	}
 	.page {
 		width: 100%;
@@ -236,5 +241,28 @@ footer {
 	.site-navigation .nav-menu-item {
 		display: block;
 		font-size: 2.0rem;
+	}
+	.keyvisual {
+		height: 250px;
+	}
+	.key-description {
+		padding-top: 50px;
+		margin-left: 0;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+	.section-title {
+		padding: 10px;
+		font-size: 3.0rem;
+	}
+	.section-contents {
+		font-size: 1.2rem;
+		line-height: 1.5;
+		text-align: center;
+	}
+	.works-img {
+		display: block;
+		width: 250px;
+		height: 250px;
 	}
 }
