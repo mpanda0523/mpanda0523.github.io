@@ -184,7 +184,7 @@ footer {
 		display: block;
 	}
 	.hamburger-outline {
-		position: absolute;
+		position: fixed;
 		top: 0px;
 		left: 0px;
 		height: 40px;
@@ -226,9 +226,15 @@ footer {
 	}
 	.site-navigation .nav-menu {
 		display: block;
-		text-align: right;
+		text-align: left;
+		position: fixed;
+		top: 40px;
+		left: 0px;
+		background-color: rgba(255,255,255,0.9);
+		background-blend-mode:lighten;
 	}
 	.site-navigation .nav-menu-item {
+		display: block;
 		font-size: 2.0rem;
 	}
 }
