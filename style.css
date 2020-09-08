@@ -120,6 +120,11 @@ body {
 	font-size: 1.4rem;
 	line-height: 2.0;
 }
+.section-contents ul {
+	margin-block-start: 10px;
+	padding-inline-start: 30px;
+	text-align: left;
+}
 #self-introduction {
 	height: 500px;
 	background-color: #f5f5f5;
