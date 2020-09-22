@@ -23,10 +23,10 @@ body {
 
 /*header*/
 .site-top {
-	background-image: url("sozai/panda-cup-2.jpg");
+	/*background-image: url("sozai/panda-cup-2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover;*/
 	padding-top: 40px;
 	/*background-color: rgba(255,255,255,0.8);*/
 	/*background-blend-mode:lighten;*/
@@ -98,12 +98,26 @@ body {
 	border: solid 1px #808080;
 }*/
 .keyvisual {
-	font-family: 'azukiLP';
-	height: 700px;
+	height: 400px;
+	margin: 10px 10px;
+}
+.keyvisual .img {
+	/*background-image: url("sozai/panda-cake-6.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;*/
+	height: 200px;
+	margin-top: 100px;
+	padding-right: 50px;
+	text-align: right;
+	/*font-family: 'azukiLP';
 	text-align: center;
 	font-size: 1.6rem;
 	color: #696969;
-	line-height: 1.5;
+	line-height: 1.5;*/
+}
+.keyvisual img {
+	width: 250px;
 }
 .key-description {
 	padding-top: 100px;
