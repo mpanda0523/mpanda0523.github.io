@@ -24,10 +24,11 @@ body {
 /*header*/
 .site-top {
 	display: table;
-	background-image: url("sozai/panda-cup-2.jpg");
+	width: 100%;
+	/*background-image: url("sozai/panda-cup-2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover;*/
 	padding-top: 40px;
 	/*background-color: rgba(255,255,255,0.8);*/
 	/*background-blend-mode:lighten;*/
@@ -60,7 +61,7 @@ body {
 }
 .site-navigation {
 	font-size: 0;
-	display: table-cell;
+	/*display: table-cell;*/
 	text-align: center;
 	color: #696969;
 }
@@ -71,7 +72,7 @@ body {
 	padding-right: 20px;
 }
 .nav-menu-item {
-	display: inline-block;
+	display: block;
 	padding: 0 16px;
 	font-family: 'Amatic SC';
 	font-size: 1.8rem;
@@ -93,12 +94,19 @@ body {
 	border: solid 1px #808080;
 }*/
 .keyvisual {
+	display: table-cell;
 	font-family: 'azukiLP';
 	height: 700px;
-	text-align: center;
 	font-size: 1.6rem;
 	color: #696969;
 	line-height: 1.5;
+}
+.keyvisual .image {
+	text-align: right;
+	padding-right: 50px;
+}
+.keyvisual img {
+	width: 280px;
 }
 .key-description {
 	padding-top: 100px;
