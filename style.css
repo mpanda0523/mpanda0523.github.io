@@ -47,11 +47,11 @@ body {
 	text-align: center;
 }
 .site-title {
-	font-family: 'Amatic SC';
-	font-size: 5.2rem;
+	font-family: 'Barlow Semi Condensed';
+	font-size: 3.2rem;
 	letter-spacing: 1px;
 	margin: 0 0;
-	color: #8b4513;
+	color: #696969;
 }
 .hamburger-icon {
   display: none;
@@ -62,20 +62,19 @@ body {
 .site-navigation {
 	font-size: 0;
 	/*display: table-cell;*/
-	text-align: center;
+	text-align: left;
 	color: #696969;
 }
 .nav-menu {
 	/*display: inline-block;*/
 	margin: 0;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 20px 30px;
 }
 .nav-menu-item {
 	display: block;
 	padding: 0 16px;
-	font-family: 'Amatic SC';
-	font-size: 1.8rem;
+	font-family: 'Barlow Semi Condensed';
+	font-size: 1.6rem;
 	letter-spacing: 1px;
 }
 .nav-menu-item a {
@@ -95,9 +94,9 @@ body {
 }*/
 .keyvisual {
 	display: table-cell;
-	font-family: 'azukiLP';
+	/*font-family: 'azukiLP';*/
 	height: 700px;
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	color: #696969;
 	line-height: 1.5;
 	text-align: right;
@@ -110,7 +109,7 @@ body {
 	width: 250px;
 }
 .key-description {
-	padding-top: 100px;
+	padding-top: 0px;
 	padding-left: 20px;
 	margin: 30px auto;
 }
