@@ -45,8 +45,8 @@ body {
 	padding-bottom: 10px;
 	padding-right: 50px;
 	text-align: center;
-	margin-right: -40px;
-	margin-left: 40px;
+	margin-right: -10vw;
+	margin-left: 10vw;
 	margin-top: 40px;
 	/*border: 1px solid #696969;*/
 	background-color: rgba(210,210,210,0.5);
