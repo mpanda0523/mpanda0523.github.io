@@ -29,7 +29,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;*/
-	padding-top: 40px;
+	/*padding-top: 40px;*/
 	/*background-color: rgba(255,255,255,0.8);*/
 	/*background-blend-mode:lighten;*/
 }
@@ -47,6 +47,7 @@ body {
 	text-align: center;
 	margin-right: -40px;
 	margin-left: 40px;
+	margin-top: 40px;
 	/*border: 1px solid #696969;*/
 	background-color: rgba(210,210,210,0.5);
 	background-blend-mode:lighten;
@@ -69,7 +70,7 @@ body {
 	/*display: table-cell;*/
 	text-align: left;
 	color: #696969;
-	border: 1px solid #696969;
+	/*border: 1px solid #696969;*/
 	margin-top: 50px;
 }
 .nav-menu {
