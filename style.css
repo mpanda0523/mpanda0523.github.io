@@ -47,7 +47,7 @@ body {
 	text-align: center;
 	margin-right: -40px;
 	margin-left: 40px;
-	border: 1px solid #696969;
+	/*border: 1px solid #696969;*/
 	background-color: rgba(210,210,210,0.5);
 	background-blend-mode:lighten;
 }
