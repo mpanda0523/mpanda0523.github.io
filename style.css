@@ -35,9 +35,9 @@ body {
 }
 .site-top-table {
 	display: table-cell;
-	width: 300px;
+	width: 30vw;
 	margin-bottom: 40px;
-	background-color: rgba(255,255,255,0.4);
+	background-color: rgba(255,255,255,0.5);
 	background-blend-mode:lighten;
 }
 .site-branding {
@@ -45,6 +45,11 @@ body {
 	padding-bottom: 10px;
 	padding-right: 50px;
 	text-align: center;
+	margin-right: -40px;
+	margin-left: 40px;
+	border: 1px solid #696969;
+	background-color: rgba(210,210,210,0.5);
+	background-blend-mode:lighten;
 }
 .site-title {
 	font-family: 'Barlow Semi Condensed';
@@ -64,6 +69,8 @@ body {
 	/*display: table-cell;*/
 	text-align: left;
 	color: #696969;
+	border: 1px solid #696969;
+	margin-top: 50px;
 }
 .nav-menu {
 	/*display: inline-block;*/
