@@ -58,19 +58,19 @@ body {
 }
 .site-navigation {
 	font-size: 0;
-	/*display: table-cell;*/
 	text-align: left;
 	color: #696969;
-	/*border: 1px solid #696969;*/
 	margin-top: 100px;
+	z-index: 100;
 }
-/*.back-cover {
+/*.site-navigation::before {
+	content: "";
 	display: block;
-	width: 500px;
-	height: 500px;
+	width: 100%;
+	height: 100%;
 	position: fixed;
 	top: 0;
-	left: -500px;
+	left: -100vw;
 	background-color: #808080;
 	opacity: 0.8;
 }*/
@@ -355,6 +355,9 @@ footer {
   }
 	#drawercheckbox {
 		position: fixed;
+	}
+	#drawercheckbox:checked ~ .site-navigation::before {
+		left: 0;
 	}
 	#drawercheckbox:checked ~ .site-navigation {
 		left: 0;
