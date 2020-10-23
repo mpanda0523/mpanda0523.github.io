@@ -103,10 +103,10 @@ body {
 .keyvisual .image {
 	text-align: right;
 	padding-right: 10vw;
-	margin-top: 120px;
+	/*margin-top: 120px;*/
 }
 .keyvisual img {
-	width: 250px;
+	width: 400px;
 }
 .key-description {
 	padding-top: 0px;
