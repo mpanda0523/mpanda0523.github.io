@@ -64,6 +64,16 @@ body {
 	/*border: 1px solid #696969;*/
 	margin-top: 100px;
 }
+/*.back-cover {
+	display: block;
+	width: 500px;
+	height: 500px;
+	position: fixed;
+	top: 0;
+	left: -500px;
+	background-color: #808080;
+	opacity: 0.8;
+}*/
 .nav-menu {
 	/*display: inline-block;*/
 	margin-left: 10vw;
@@ -349,6 +359,9 @@ footer {
 	#drawercheckbox:checked ~ .site-navigation {
 		left: 0;
 	}
+	/*#drawercheckbox:checked ~ .back-cover {
+		left: 500px;
+	}*/
 	.site-navigation {
 		margin-top: 0;
 		width: 280px;
