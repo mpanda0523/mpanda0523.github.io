@@ -1,4 +1,4 @@
-charset "UTF-8";
+@charset "UTF-8";
 
 /*general*/
 html {
@@ -32,23 +32,25 @@ body {
 	margin-bottom: 40px;
 	background-color: rgba(255,255,255,0.5);
 	background-blend-mode:lighten;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
 }
 .site-branding {
 	text-align: center;
 	margin-right: -10vw;
 	margin-left: 10vw;
-	margin-top: 40px;
+	margin-top: 60px;
 	/*border: 1px solid #696969;*/
-	background-color: rgba(210,210,210,0.5);
-	background-blend-mode:lighten;
+	background-color: #ff8c00;
+	border-radius: 10px;
 }
 .site-title {
 	font-family: 'Barlow Semi Condensed';
-	font-size: 3.2rem;
+	font-size: 5.2rem;
+	font-weight: 300;
 	letter-spacing: 3px;
 	margin: 0;
 	padding: 10px;
-	color: #696969;
+	color: #000000;
 }
 .hamburger-icon {
   display: none;
@@ -83,7 +85,7 @@ body {
 	display: block;
 	padding-bottom: 10px;
 	font-family: 'Barlow Semi Condensed';
-	font-size: 1.6rem;
+	font-size: 2.4rem;
 	letter-spacing: 1px;
 }
 .nav-menu-item a {
@@ -105,7 +107,7 @@ body {
 	display: table-cell;
 	/*font-family: 'azukiLP';*/
 	height: 700px;
-	font-size: 1.2rem;
+	font-size: 2.0rem;
 	color: #696969;
 	line-height: 1.5;
 	text-align: right;
@@ -115,8 +117,10 @@ body {
 	padding-right: 10vw;
 	/*margin-top: 120px;*/
 }
-.keyvisual img {
+#key-image {
 	width: 400px;
+	/*border-radius: 200px;
+	box-shadow: 10px 10px 40px rgba(0,0,0,0.1);*/
 }
 .key-description {
 	padding-top: 0px;
@@ -135,7 +139,7 @@ body {
 }
 .section-contents {
 	font-family: 'azukiLP';
-	font-size: 1.4rem;
+	font-size: 2.4rem;
 	line-height: 2.0;
 }
 .section-contents ul {
@@ -164,7 +168,7 @@ body {
 #work-introduction .section-contents {
 	padding: 20px;
 	text-align: center;
-	font-size: 1.4rem;
+	font-size: 2.4rem;
 }
 .works-img {
 	display: inline-block;
@@ -223,6 +227,7 @@ footer {
 	.site-branding {
 		display: block;
 		margin-left: 0;
+		margin-right: 0;
 	}
 	.site-title {
 		font-size: 3.2rem;
@@ -231,8 +236,8 @@ footer {
 		position: fixed;
 		top: 0px;
 		left: 0px;
-		height: 40px;
-		width: 40px;
+		height: 60px;
+		width: 60px;
 		cursor: pointer;
 	}
 	.hamburger-icon {
@@ -246,20 +251,20 @@ footer {
     display: inline-block;
     position: absolute;
     top: 10px;
-    right: 7px;
-    width: 25px;
-    height: 1px;
+    right: 10px;
+    width: 40px;
+    height: 2px;
     background-color: #696969;
     margin: 0;
   }
   .hamburger-outline span:nth-of-type(1) {
-    top: 10px;
+    top: 20px;
   }
   .hamburger-outline span:nth-of-type(2) {
-    top: 17px;
+    top: 30px;
   }
   .hamburger-outline span:nth-of-type(3) {
-    top: 24px;
+    top: 40px;
   }
 	#drawercheckbox {
 		position: fixed;
@@ -273,7 +278,7 @@ footer {
 		padding: 10px;
 		text-align: left;
 		position: fixed;
-		top: 40px;
+		top: 60px;
 		left: -280px;
 		background-color: rgba(255,255,255,0.9);
 		background-blend-mode:lighten;
@@ -317,14 +322,14 @@ footer {
 		margin-right: 0;
 	}
 	.site-title {
-		font-size: 2.4rem;
+		font-size: 4.0rem;
 	}
 	.hamburger-outline {
 		position: fixed;
 		top: 0px;
 		left: 0px;
-		height: 40px;
-		width: 40px;
+		height: 60px;
+		width: 60px;
 		cursor: pointer;
 	}
 	.hamburger-icon {
@@ -338,20 +343,20 @@ footer {
     display: inline-block;
     position: absolute;
     top: 10px;
-    right: 7px;
-    width: 25px;
-    height: 1px;
+    right: 10px;
+    width: 40px;
+    height: 2px;
     background-color: #696969;
     margin: 0;
   }
   .hamburger-outline span:nth-of-type(1) {
-    top: 10px;
+    top: 20px;
   }
   .hamburger-outline span:nth-of-type(2) {
-    top: 17px;
+    top: 30px;
   }
   .hamburger-outline span:nth-of-type(3) {
-    top: 24px;
+    top: 40px;
   }
 	#drawercheckbox {
 		position: fixed;
@@ -371,7 +376,7 @@ footer {
 		padding: 10px;
 		text-align: left;
 		position: fixed;
-		top: 40px;
+		top: 60px;
 		left: -280px;
 		background-color: rgba(255,255,255,0.9);
 		background-blend-mode:lighten;
@@ -382,32 +387,32 @@ footer {
 	}
 	.site-navigation .nav-menu-item {
 		display: block;
-		font-size: 1.8rem;
+		font-size: 2.4rem;
 	}
 	.keyvisual {
 		display: block;
-		height: 600px;
+		height: 500px;
 	}
 	.keyvisual .image {
 		text-align: center;
 		padding-right: 0;
 		margin-top: 10px;
 	}
-	.keyvisual img {
-		width: 200px;
+	#key-image {
+		width: 250px;
 	}
 	.key-description {
 		padding-top: 0;
 		margin-left: 0;
 		text-align: center;
-		font-size: 1.2rem;
+		font-size: 1.8rem;
 	}
 	.section-title {
 		padding: 10px;
 		font-size: 3.0rem;
 	}
 	.section-contents {
-		font-size: 1.2rem;
+		font-size: 1.8rem;
 		line-height: 1.5;
 		text-align: center;
 	}
