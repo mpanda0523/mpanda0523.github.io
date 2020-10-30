@@ -11,6 +11,7 @@ html *{
 @font-face {
 	font-family: 'azukiLP';
 	src: url("sozai/azukifontLP100/azukiLP.ttf");
+	font-display: swap;
 }
 body {
 	margin: 0;
