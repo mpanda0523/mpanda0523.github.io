@@ -42,7 +42,7 @@ body {
 	margin-left: 10vw;
 	margin-top: 60px;
 	/*border: 1px solid #696969;*/
-	background-color: #dcdcdc;
+	background-color: #ffc0cb;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
 }
@@ -190,7 +190,9 @@ top: 40px;
 }
 #work-introduction {
 	height: 700px;
-	background-color: #FFF2D4;
+	/*background-color: #FFF2D4;*/
+	background-image: url("sozai/border-part-3.png");
+	background-repeat: repeat;
 }
 #work-introduction .section-contents {
 	padding: 20px;
@@ -233,7 +235,9 @@ top: 40px;
 /*footer*/
 footer {
 	height: 100px;
-	background-color: #FFF2D4;
+	/*background-color: #FFF2D4;*/
+	background-image: url("sozai/border-part-3.png");
+	background-repeat: repeat;
 }
 
 /*tablet*/
