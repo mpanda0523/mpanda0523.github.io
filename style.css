@@ -15,7 +15,9 @@ html *{
 }
 body {
 	margin: 0;
-	background-color: #FFF2D4;
+	/*background-color: #FFF2D4;*/
+	background-image: url("sozai/border-part-3.png");
+	background-repeat: repeat;
 }
 .page {
 	display: block;
@@ -31,7 +33,7 @@ body {
 	display: table-cell;
 	width: 35vw;
 	margin-bottom: 40px;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.7);
 	background-blend-mode:lighten;
 }
 .site-branding {
@@ -147,6 +149,7 @@ top: 40px;
 	box-shadow: 10px 10px 40px rgba(0,0,0,0.1);*/
 }
 .key-description {
+	font-family: 'azukiLP';
 	padding-top: 0px;
 	padding-left: 20px;
 	padding-right: 10vw;
