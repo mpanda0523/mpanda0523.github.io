@@ -4,6 +4,7 @@
 html {
 	font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 html *{
 	box-sizing: border-box;
