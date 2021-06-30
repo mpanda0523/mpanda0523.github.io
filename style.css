@@ -150,7 +150,7 @@ top: 40px;
 	box-shadow: 10px 10px 40px rgba(0,0,0,0.1);*/
 }
 .key-description {
-	font-family: 'azukiLP';
+	/*font-family: 'azukiLP';*/
 	padding-top: 0px;
 	padding-left: 20px;
 	padding-right: 10vw;
@@ -159,7 +159,8 @@ top: 40px;
 
 /*main*/
 .section-title {
-	font-family: 'Amatic SC';
+	/*font-family: 'Amatic SC';*/
+	font-family: 'Barlow Semi Condensed';
 	padding: 20px;
 	margin: 0 auto;
 	text-align: center;
