@@ -319,6 +319,7 @@ footer {
 	}
 	.site-top {
 		display: block;
+		height: 600px;
 	}
 	.page {
 		width: 100%;
