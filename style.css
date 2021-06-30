@@ -2,18 +2,18 @@
 
 /*general*/
 html {
-	font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+	font-family: Helvetica, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 	font-size: 62.5%;
 	scroll-behavior: smooth;
 }
 html *{
 	box-sizing: border-box;
 }
-@font-face {
+/*@font-face {
 	font-family: 'azukiLP';
 	src: url("sozai/azukifontLP100/azukiLP.ttf");
 	font-display: swap;
-}
+}*/
 body {
 	margin: 0;
 	/*background-color: #FFF2D4;*/
@@ -166,7 +166,7 @@ top: 40px;
 	font-size: 5.2rem;
 }
 .section-contents {
-	font-family: 'azukiLP';
+	/*font-family: 'azukiLP';*/
 	font-size: 2.4rem;
 	line-height: 2.0;
 }
